@@ -150,6 +150,7 @@ body {
       width: 30%;
       display: inline-block;
       padding: 1.5rem;
+      margin: .5rem;
     }
 
     .blurb::after {
@@ -249,6 +250,20 @@ body {
 
   .answer {
     margin-bottom: 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .question-group {
+      width: 30%;
+      display: inline-block;
+      padding: 1.5rem;
+      margin: .5rem;
+      vertical-align: top;
+    }
+
+    .question-group::after {
+      background: none;
+    }
   }
 
   /* ==== Contact ==== */
