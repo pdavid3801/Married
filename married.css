@@ -1,0 +1,192 @@
+* {
+	box-sizing: border-box;
+}
+
+/* Single-direction margin declaration to establish vertical rhythm. */
+
+h1,h2,h3,
+ul,ol,
+p,
+img {
+    margin-bottom: 1.5rem;
+}
+
+.location, .program, .gifts, .faq, .contact {
+  width: 95%;
+  text-align: center;
+}
+
+body {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: #444349;
+    margin: 0;
+  }
+
+  /* ==== Header declaration ==== */
+
+  .cover {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+    display: table;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .background {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .wrapper {
+   margin: 0 auto;
+   padding: .625rem;
+   color: hsla(0,0%,100%,.9);
+   background: hsla(100,0%,0%,.5);
+}
+
+.wrapper h1 {
+  font-size: 3.15rem;
+  color: #d2ba87;
+  font-family: 'Great Vibes', cursive;
+  margin-bottom: 0;
+  padding: 1rem;
+}
+
+.tagline {
+  font-size: 1rem;
+  letter-spacing: .25rem;
+  text-transform: uppercase;
+}
+
+.tagline::after {        /* ezt nem tudtam megcsinálni egyedül */
+  display: block;
+  content: "";
+  background-color: #fff;
+  width: 10.5rem;
+  height: 1px;
+  margin: .5rem auto;
+}
+
+  /* ==== Date & line ==== */
+
+  .date {
+    font-size: 1.25rem;
+    letter-spacing: .15rem;
+    vertical-align: middle;
+  }
+
+  .date::before,
+  .date::after {
+    display: inline-block;
+    content:"";
+    width: 1.5rem;
+    height: 1px;
+    background-color: #fff;
+    vertical-align: middle;
+    margin: 0.5rem;
+  }
+
+  /* ==== Location styles ==== */
+
+  .blurb img {
+    height: 7.5rem;
+    margin: 1rem;
+  }
+
+  .blurb h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+
+  .blurb div {
+    font-family: 'Muli', sans-serif;
+  }
+
+  section h2 {
+    font-family: 'Great Vibes', cursive;
+    padding: 2rem;
+    font-size: 3rem;
+  }
+
+  .blurb::after {
+    content: "";
+    display: block;
+    height: .1875rem;
+    width: 25vw;
+    margin: 1.5rem auto;
+    background-color: #444349;
+  }
+
+  /* ==== Program ==== */
+
+  .program {
+    background: hsla(100,0%,0%,.6);
+    width: 100vw;
+    font-family: 'Muli', sans-serif;
+    color: #d2ba87;
+    text-align: left; 
+  }
+
+  .program h2 {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .program p {
+    font-style: italic;
+    margin-bottom: .4rem;
+  }
+
+  .program li {
+    margin-bottom: .2rem;
+    letter-spacing: .25rem;
+  }
+
+  /* ==== Gifts ==== */
+
+  .gifts img {
+    height: 7.5rem;
+    margin: 1.5rem;
+  }
+
+  .gifts p {
+    font-size: 1.25rem;
+  }
+
+  /* ==== Questions & Answers ==== */
+
+  .faq {
+    background: hsla(100,0%,0%,.6);
+    width: 100vw;
+    font-family: 'Muli', sans-serif;
+    color: #d2ba87;
+    text-align: center;
+  }
+
+  .faq h3 {
+    font-size: 1.5rem;
+    margin: 1.5rem;
+  }
+
+  .question {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+  }
+
+  .question-group::after {
+    background-color: #d2ba87;
+    display: block;
+    content: "";
+    width: 50vw;
+    height: .1875rem;
+    margin: 1.5rem auto;
+  }
+
+  .faq p {
+    font-family: 'Muli', sans-serif;
+    text-align: left;
+  }
