@@ -11,6 +11,11 @@ img {
     margin-bottom: 1.5rem;
 }
 
+a {
+  text-decoration: none;
+  color: rgba(255, 0, 0, 0.884);
+}
+
 .location, .program, .gifts, .faq, .contact {
   width: 95%;
   text-align: center;
@@ -22,7 +27,6 @@ body {
     font-size: 1.125rem;
     line-height: 1.5;
     color: #444349;
-    margin: 0;
   }
 
   /* ==== Header declaration ==== */
@@ -128,6 +132,7 @@ body {
     font-family: 'Muli', sans-serif;
     color: #d2ba87;
     text-align: left; 
+    padding: 2rem;
   }
 
   .program h2 {
@@ -147,6 +152,10 @@ body {
 
   /* ==== Gifts ==== */
 
+.gifts {
+  padding: 2.5rem;
+}
+
   .gifts img {
     height: 7.5rem;
     margin: 1.5rem;
@@ -164,6 +173,7 @@ body {
     font-family: 'Muli', sans-serif;
     color: #d2ba87;
     text-align: center;
+    padding: 2rem;
   }
 
   .faq h3 {
