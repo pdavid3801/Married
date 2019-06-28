@@ -132,7 +132,9 @@ body {
     font-family: 'Muli', sans-serif;
     color: #d2ba87;
     text-align: left; 
-    padding: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    
   }
 
   .program h2 {
@@ -153,7 +155,7 @@ body {
   /* ==== Gifts ==== */
 
 .gifts {
-  padding: 2.5rem;
+  padding: 1rem;
 }
 
   .gifts img {
@@ -173,7 +175,7 @@ body {
     font-family: 'Muli', sans-serif;
     color: #d2ba87;
     text-align: center;
-    padding: 2rem;
+    padding: 1.5rem;
   }
 
   .faq h3 {
@@ -193,7 +195,7 @@ body {
     content: "";
     width: 50vw;
     height: .1875rem;
-    margin: 1.5rem auto;
+    margin: 2rem auto;
   }
 
   .faq p {
@@ -203,4 +205,15 @@ body {
 
   .answer {
     margin-bottom: 1.5rem;
+  }
+
+  /* ==== Contact ==== */
+
+  .contact {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .contact p {
+    margin: 1.5rem;
   }
