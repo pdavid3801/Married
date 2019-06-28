@@ -86,7 +86,7 @@ body {
     color: hsla(0,0%,100%,.9);
     background: hsla(100,0%,0%,.5);
     border: 1px solid hsla(100,0%,0%,.5);
-    border-radius: 2rem;
+    border-radius: 10px;
     padding: 1.25rem;
   }
 
@@ -264,6 +264,10 @@ body {
     .question-group::after {
       background: none;
     }
+
+    .question-group h3 {
+      text-align: left;
+    }
   }
 
   /* ==== Contact ==== */
@@ -299,4 +303,10 @@ body {
   footer small {
     font-weight: 600;
     line-height: 1.5;
+  }
+
+  @media (min-width: 768px) {
+    .footer small {
+      min-height: 7vh;
+    }
   }
