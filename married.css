@@ -74,6 +74,27 @@ body {
   margin: .5rem auto;
 }
 
+@media (min-width: 768px) {
+  .cover {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat, cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 50%;
+    color: hsla(0,0%,100%,.9);
+    background: hsla(100,0%,0%,.5);
+    border: 1px solid hsla(100,0%,0%,.5);
+    border-radius: 2rem;
+    padding: 1.25rem;
+  }
+
+  .wrapper h1 {
+    font-size: 7rem;
+  }
+}
+
   /* ==== Date & line ==== */
 
   .date {
@@ -124,6 +145,18 @@ body {
     background-color: #444349;
   }
 
+  @media (min-width: 768px) {
+    .blurb {
+      width: 30%;
+      display: inline-block;
+      padding: 1.5rem;
+    }
+
+    .blurb::after {
+      background: none;
+    }
+  }
+
   /* ==== Program ==== */
 
   .program {
@@ -150,6 +183,17 @@ body {
   .program li {
     margin-bottom: .2rem;
     letter-spacing: .25rem;
+  }
+
+  @media (min-width: 768px) {
+    .program-wrapper {
+      width: 30vw;
+      margin: 0 auto;
+    }
+
+    .program-wrapper p {
+      padding-bottom: 1rem;
+    }
   }
 
   /* ==== Gifts ==== */
