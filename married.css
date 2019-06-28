@@ -217,3 +217,18 @@ body {
   .contact p {
     margin: 1.5rem;
   }
+
+  /* ==== Footer ==== */
+
+  .footer {
+    background: hsla(100,0%,0%,.6);
+    width: 100vw;
+    font-family: 'Muli', sans-serif;
+    padding: 1.5rem;
+    color: white;
+    text-align: center;
+  }
+
+  .footer small {
+    font-weight: 700;
+  }
